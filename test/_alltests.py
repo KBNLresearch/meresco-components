@@ -10,7 +10,7 @@
 # Copyright (C) 2009 Delft University of Technology http://www.tudelft.nl
 # Copyright (C) 2009 Tilburg University http://www.uvt.nl
 # Copyright (C) 2010-2016 Stichting Kennisnet http://www.kennisnet.nl
-# Copyright (C) 2011-2017 Seecr (Seek You Too B.V.) http://seecr.nl
+# Copyright (C) 2011-2018 Seecr (Seek You Too B.V.) http://seecr.nl
 # Copyright (C) 2012-2014 Stichting Bibliotheek.nl (BNL) http://www.bibliotheek.nl
 # Copyright (C) 2015 Drents Archief http://www.drentsarchief.nl
 # Copyright (C) 2015 Koninklijke Bibliotheek (KB) http://www.kb.nl
@@ -108,6 +108,7 @@ from http.observablehttpservertest import ObservableHttpServerTest
 from http.observablehttpsservertest import ObservableHttpsServerTest
 from http.pathfiltertest import PathFilterTest
 from http.pathrenametest import PathRenameTest
+from http.pathtoargumentstest import PathToArgumentsTest
 from http.sessionhandlertest import SessionHandlerTest
 from http.httputilstest import HttpUtilsTest
 from http.cookiememorystoretest import CookieMemoryStoreTest

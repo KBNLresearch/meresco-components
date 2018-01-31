@@ -8,7 +8,7 @@
 # Copyright (C) 2007-2011 Seek You Too (CQ2) http://www.cq2.nl
 # Copyright (C) 2007-2009 Stichting Kennisnet Ict op school. http://www.kennisnetictopschool.nl
 # Copyright (C) 2011 Stichting Kennisnet http://www.kennisnet.nl
-# Copyright (C) 2012, 2016 Seecr (Seek You Too B.V.) http://seecr.nl
+# Copyright (C) 2012, 2016, 2018 Seecr (Seek You Too B.V.) http://seecr.nl
 # Copyright (C) 2016 SURFmarket https://surf.nl
 #
 # This file is part of "Meresco Components"
@@ -33,6 +33,7 @@ from observablehttpserver import ObservableHttpServer
 from observablehttpsserver import ObservableHttpsServer
 from pathfilter import PathFilter
 from pathrename import PathRename
+from pathtoarguments import *
 from fileserver import StringServer, FileServer
 from ipfilter import IpFilter
 from basichttphandler import BasicHttpHandler
